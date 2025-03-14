@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Navbar from '@/components/ui/Navbar';
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
@@ -7,8 +8,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Website And Seo Solutions",
+  description: "Aim to provide and excellent user exprience..",
 };
 
 export default function RootLayout({
@@ -28,7 +29,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Navbar />
           {children}
+          
         </ThemeProvider>
       </body>
     </html>
