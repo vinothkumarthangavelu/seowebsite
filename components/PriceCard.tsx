@@ -9,60 +9,60 @@ export function PriceCard() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
       <GlareCard className="flex flex-col items-center flex-row justify-end py-8 px-6">
-            <div class="">
-                <div class="mb-7 pb-7 flex items-center border-b border-gray-300">
-                    <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" class="rounded-3xl w-20 h-20" />
-                    <div class="ml-5">
-                    <span class="block text-2xl font-semibold">Enterprise</span>
-                    <span><span class="font-medium  text-xl align-top">$&thinsp;</span><span class="text-3xl font-bold">35 </span></span><span class=" font-medium">/ user</span>
+            <div className="">
+                <div className="mb-7 pb-7 flex items-center border-b border-gray-300">
+                    <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" className="rounded-3xl w-20 h-20" />
+                    <div className="ml-5">
+                    <span className="block text-2xl font-semibold">Enterprise</span>
+                    <span><span className="font-medium  text-xl align-top">$&thinsp;</span><span className="text-3xl font-bold">35 </span></span><span className=" font-medium">/ user</span>
                     </div>
                 </div>
-                <ul class="mb-7 font-medium ">
-                    <li class="flex text-lg mb-2">
+                <ul className="mb-7 font-medium ">
+                    <li className="flex text-lg mb-2">
                     <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                    <span class="ml-3">All features in <span class="">Startup</span></span>
+                    <span className="ml-3">All features in <span className="">Startup</span></span>
                     </li>
-                    <li class="flex text-lg mb-2">
+                    <li className="flex text-lg mb-2">
                     <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                    <span class="ml-3">Growth <span class="">oriented</span></span>
+                    <span className="ml-3">Growth <span className="">oriented</span></span>
                     </li>
-                    <li class="flex text-lg">
+                    <li className="flex text-lg">
                     <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                    <span class="ml-3"><span class="">Unlimited</span> cloud storage</span>
+                    <span className="ml-3"><span className="">Unlimited</span> cloud storage</span>
                     </li>
                 </ul>
-                <a href="#/" class="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl">
+                <a href="#/" className="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl">
                     Choose Plan
-                    <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" class="ml-2" />
+                    <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2" />
                 </a>
             </div>
       </GlareCard>
       <GlareCard className="flex flex-col items-center flex-row justify-end py-8 px-6">
-            <div class="">
-                <div class="mb-7 pb-7 flex items-center border-b border-gray-300">
-                    <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" class="rounded-3xl w-20 h-20" />
-                    <div class="ml-5">
-                    <span class="block text-2xl font-semibold">Enterprise</span>
-                    <span><span class="font-medium  text-xl align-top">$&thinsp;</span><span class="text-3xl font-bold">35 </span></span><span class=" font-medium">/ user</span>
+            <div className="">
+                <div className="mb-7 pb-7 flex items-center border-b border-gray-300">
+                    <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" className="rounded-3xl w-20 h-20" />
+                    <div className="ml-5">
+                    <span className="block text-2xl font-semibold">Enterprise</span>
+                    <span><span className="font-medium  text-xl align-top">$&thinsp;</span><span className="text-3xl font-bold">35 </span></span><span className=" font-medium">/ user</span>
                     </div>
                 </div>
-                <ul class="mb-7 font-medium ">
-                    <li class="flex text-lg mb-2">
+                <ul className="mb-7 font-medium ">
+                    <li className="flex text-lg mb-2">
                     <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                    <span class="ml-3">All features in <span class="">Startup</span></span>
+                    <span className="ml-3">All features in <span className="">Startup</span></span>
                     </li>
-                    <li class="flex text-lg mb-2">
+                    <li className="flex text-lg mb-2">
                     <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                    <span class="ml-3">Growth <span class="">oriented</span></span>
+                    <span className="ml-3">Growth <span className="">oriented</span></span>
                     </li>
-                    <li class="flex text-lg">
+                    <li className="flex text-lg">
                     <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                    <span class="ml-3"><span class="">Unlimited</span> cloud storage</span>
+                    <span className="ml-3"><span className="">Unlimited</span> cloud storage</span>
                     </li>
                 </ul>
-                <a href="#/" class="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl">
+                <a href="#/" className="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl">
                     Choose Plan
-                    <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" class="ml-2" />
+                    <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2" />
                 </a>
             </div>
       </GlareCard>
@@ -72,32 +72,32 @@ export function PriceCard() {
           The greatest trick the devil ever pulled was to convince the world
           that he didn&apos;t exist.
         </p> */}
-        <div class=" ">
-            <div class="mb-7 pb-7 flex items-center border-b border-gray-300">
-                <img src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg"  alt="" class="rounded-3xl w-20 h-20" />
-                <div class="ml-5">
-                    <span class="block text-2xl font-semibold">Basic</span>
-                    <span><span class="font-medium  text-xl align-top">$&thinsp;</span><span class="text-3xl font-bold">10 </span></span><span class=" font-medium">/ user</span>
+        <div className=" ">
+            <div className="mb-7 pb-7 flex items-center border-b border-gray-300">
+                <img src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg"  alt="" className="rounded-3xl w-20 h-20" />
+                <div className="ml-5">
+                    <span className="block text-2xl font-semibold">Basic</span>
+                    <span><span className="font-medium  text-xl align-top">$&thinsp;</span><span className="text-3xl font-bold">10 </span></span><span className=" font-medium">/ user</span>
                 </div>
             </div>
-            <ul class="mb-7 font-medium text-white-500">
-                <li class="flex text-lg mb-2">
+            <ul className="mb-7 font-medium text-white-500">
+                <li className="flex text-lg mb-2">
                 <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                <span class="ml-3">Get started with <span class="">messaging</span></span>
+                <span className="ml-3">Get started with <span className="">messaging</span></span>
                 </li>
-                <li class="flex text-lg mb-2">
+                <li className="flex text-lg mb-2">
                 <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                <span class="ml-3">Flexible <span class="">team meetings</span></span>
+                <span className="ml-3">Flexible <span className="">team meetings</span></span>
                 </li>
-                <li class="flex text-lg">
+                <li className="flex text-lg">
                 <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                <span class="ml-3"><span class="">5 TB</span> cloud storage</span>
+                <span className="ml-3"><span className="">5 TB</span> cloud storage</span>
                 </li>
                 
             </ul>
-            <a href="#/" class="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl">
+            <a href="#/" className="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl">
                 Choose Plan
-                <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" class="ml-2" />
+                <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2" />
             </a>
         </div>
         {/* <div
