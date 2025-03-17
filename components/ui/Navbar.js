@@ -62,7 +62,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white shadow-md py-4">
+        <nav className="bg-dark text-white shadow-md py-4">
             <div className="container mx-auto px-4 flex items-center justify-between">
                 <div className="logo">
                     <Logo />
